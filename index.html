@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="resources/css/theme.css">
 	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 	<script src="resources/js/main.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   </head>
   <body>
@@ -149,6 +150,9 @@
   </div>
           <label for="content"> Wiadomość <span class="required">*</span> </label>
           <textarea name="content" id="content" rows="10"></textarea>
+          <div class="g-recaptcha" data-sitekey="6LcbQ5obAAAAAAhqGhkU9_5sVsyrb3vp6aY5tOUa"></div>
+          <br/>
+
   <input type="submit" id="button" value="Send Email" >
 </form>
 </div>
